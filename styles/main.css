@@ -4,6 +4,8 @@
     color: black;
     list-style: none;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.5s cubic-bezier(0.32, 0.71, 0.4, 0.79);;
 }
 body{
     width: 100vw;
@@ -37,11 +39,38 @@ nav ul li{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    font-family: 'Raleway', sans-serif;
-    transition: 0.5s cubic-bezier(0.32, 0.71, 0.4, 0.79);;
+    
 }
 .menu-options:hover {
    background-color: rgba(50, 19, 101, 0.7);
    color: rgba(211, 233, 243, 0.9);
     transform: translate(-50px, 0px);
+}
+#divMyImg{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 0px 0px;
+}
+#myImg{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    opacity: .5;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -60%);
+}
+#divMyPresentation{
+    margin: 15% 15% 0% 30%;
+    font-size: 25px;
+    color: rgba(211, 233, 243, 1);
+    position: relative;
+}
+hr{
+   margin: 10% 0%;
+
 }
