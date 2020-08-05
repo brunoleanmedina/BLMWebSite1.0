@@ -7,7 +7,7 @@
     font-family: 'Raleway', sans-serif;
 }
 body{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: linear-gradient(to right, #321365, #1d357f, #005093, #006aa0, #2783a9);
 }
@@ -39,7 +39,6 @@ nav ul li{
     justify-content: center;
     align-items: flex-start;
     transition: 0.5s cubic-bezier(0.32, 0.71, 0.4, 0.79);
-    
 }
 .menu-options:hover {
    background-color: rgba(50, 19, 101, 0.7);
@@ -47,7 +46,7 @@ nav ul li{
     transform: translate(-50px, 0px);
 }
 header{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -70,6 +69,7 @@ header{
 }
 #myPresentation{
     margin: 150px 50px 0px -70px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, .8);
 }
 #myPresentation h1{
     font-size: 60px;
@@ -99,4 +99,12 @@ header aside{
 }    
 .menu-contacts img:hover{
     opacity: 1;
+}
+main{
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+}
+main section{
+    background-color: rosybrown;
+    margin: 10px 0px;
 }
