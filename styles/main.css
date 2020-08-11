@@ -103,8 +103,30 @@ header aside{
 main{
     background-color: rgba(0, 0, 0, .8);
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 main section{
     background-color: rosybrown;
     margin: 10px 0px;
+    font-size: 30px;
+    font-weight: 30;
+    letter-spacing: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+main section h1{
+    color: rgba(211, 233, 243, 0.9);
+
+}
+main section div h3{
+    color: rgba(211, 233, 243, 0.9);
+}
+main section div p{
+    color: rgba(211, 233, 243, 0.9);
 }
