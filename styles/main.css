@@ -101,7 +101,6 @@ header aside{
     opacity: 1;
 }
 main{
-    background-color: rgba(0, 0, 0, .8);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -109,8 +108,7 @@ main{
     align-items: flex-start;
 }
 main section{
-    background-color: rosybrown;
-    margin: 10px 0px;
+    margin: 50px 80px 50px 10px;
     font-size: 30px;
     font-weight: 30;
     letter-spacing: 10px;
@@ -121,12 +119,37 @@ main section{
     
 }
 main section h1{
-    color: rgba(211, 233, 243, 0.9);
+    color: rgba(211, 233, 243, 0.6);
+    font-size: 50px;
+    font-weight: 30;
+    letter-spacing: 10px;
+    margin: 0px 50px 0px 0px;
 
 }
 main section div h3{
     color: rgba(211, 233, 243, 0.9);
+    font-size:30px;
+    font-weight: 30;
+    letter-spacing: 5px;
 }
 main section div p{
     color: rgba(211, 233, 243, 0.9);
+    font-size: 20px;
+    font-weight: 1;
+    letter-spacing: 5px;
+}
+hr{
+    margin: 10px 0px;
+    border: 0; height: 12px; 
+    box-shadow: inset 0 12px 12px -12px rgba(50, 19, 101, 0.9);
+    border-radius: 30px;
+}
+footer{
+    background-color: rgba(28, 7, 61, 0.8);
+    width: 100%;
+    height:  100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
